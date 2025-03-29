@@ -5,12 +5,12 @@ import { data } from "@/lib/constants/data";
 
 export default function Page() {
   return (
-    <>
+    <div className="container mx-auto space-y-6">
       <SectionCards />
       <div className="px-4 lg:px-6">
         <ChartAreaInteractive />
       </div>
       <DataTable data={data} />
-    </>
+    </div>
   );
 }
