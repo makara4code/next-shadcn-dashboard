@@ -2,8 +2,8 @@
 
 A modern, feature-rich dashboard application built with Next.js 15, TypeScript, and shadcn/ui components. This project provides a comprehensive dashboard interface with analytics, lifecycle management, data visualization, and more.
 
-![Light Mode Dashboard](/screenshot-light.png)
-![Dark Mode Dashboard](/screenshot-dark.png)
+![Light Mode Dashboard](./public/screenshot-light.png)
+![Dark Mode Dashboard](./public/screenshot-dark.png)
 
 ## ✨ Features
 
