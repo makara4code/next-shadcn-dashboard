@@ -89,7 +89,7 @@ A modern, feature-rich dashboard application built with Next.js 15, TypeScript, 
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/makara4code/next-shadcn-dashboard.git
    cd next-shadcn-dashboard
    ```
 
