@@ -1,22 +1,19 @@
 # Frontend Hub Dashboard
 
-A modern, feature-rich dashboard application built with Next.js 15, TypeScript, and shadcn/ui components. This project provides a comprehensive dashboard interface with analytics, lifecycle management, data visualization, and more.
+A modern, responsive dashboard UI built with Next.js 15, TypeScript, and shadcn/ui components. This project showcases a beautiful and functional dashboard interface with a focus on design, user experience, and modern UI patterns.
 
 ![Light Mode Dashboard](./public/screenshot-light.png)
 ![Dark Mode Dashboard](./public/screenshot-dark.png)
 
 ## ✨ Features
 
-- 📊 **Interactive Analytics Dashboard** - Real-time data visualization with charts and metrics
-- 🔄 **Lifecycle Management** - Track and manage different lifecycle stages
-- 📋 **Data Tables** - Advanced data tables with sorting, filtering, and pagination
 - 🎨 **Modern UI Components** - Built with shadcn/ui and Radix UI primitives
-- 🌓 **Dark/Light Mode** - Theme switching with next-themes
+- 🌓 **Dark/Light Mode** - Seamless theme switching with next-themes
 - 📱 **Responsive Design** - Mobile-first approach with Tailwind CSS
-- 🔐 **Authentication Pages** - Complete auth flow implementation
+- 📊 **Interactive Charts** - Beautiful data visualization with Recharts
+- 📋 **Data Tables** - Advanced tables with sorting and filtering
 - 🎯 **Drag & Drop** - Interactive components with dnd-kit
-- 📈 **Charts & Visualizations** - Powered by Recharts
-- 🚀 **Performance Optimized** - Turbopack for fast development
+- 🚀 **Performance Optimized** - Built with modern web standards
 
 ## 🛠️ Tech Stack
 
@@ -34,28 +31,18 @@ A modern, feature-rich dashboard application built with Next.js 15, TypeScript, 
 - **class-variance-authority** - Component variant management
 - **tailwind-merge** - Utility for merging Tailwind classes
 
-### Data & State Management
-- **TanStack React Table** - Powerful data tables
-- **Zod** - Schema validation
+### UI/UX Features
 - **Recharts** - Composable charting library
-
-### Interactions & UX
 - **DnD Kit** - Drag and drop functionality
 - **next-themes** - Theme management
 - **Sonner** - Toast notifications
 - **Vaul** - Drawer component
 - **NextJS TopLoader** - Page loading indicator
 
-### Development Tools
-- **ESLint** - Code linting
-- **PostCSS** - CSS processing
-- **Vercel Analytics** - Performance monitoring
-
 ## 📁 Project Structure
 
 ```
 ├── app/                    # Next.js App Router
-│   ├── (auth)/            # Authentication pages
 │   ├── (dashboard)/       # Dashboard pages
 │   │   ├── analytics/     # Analytics dashboard
 │   │   ├── dashboard/     # Main dashboard
@@ -70,12 +57,10 @@ A modern, feature-rich dashboard application built with Next.js 15, TypeScript, 
 │   ├── data-table.tsx    # Data table component
 │   ├── lifecycle-*.tsx   # Lifecycle components
 │   └── chart-*.tsx       # Chart components
-├── hooks/                # Custom React hooks
 ├── lib/                  # Utility functions
 │   ├── constants/        # Application constants
 │   └── utils.ts          # Utility functions
-├── public/               # Static assets
-└── components.json       # shadcn/ui configuration
+└── public/              # Static assets
 ```
 
 ## 🚀 Getting Started
@@ -119,13 +104,6 @@ A modern, feature-rich dashboard application built with Next.js 15, TypeScript, 
    
    Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
 
-## 🎨 Available Scripts
-
-- `npm run dev` - Start development server with Turbopack
-- `npm run build` - Build the application for production
-- `npm run start` - Start the production server
-- `npm run lint` - Run ESLint for code linting
-
 ## 🎨 Customization
 
 ### Adding New Components
@@ -147,24 +125,6 @@ The application supports dark/light mode switching. Customize themes in:
 - Tailwind CSS classes for styling
 - CSS custom properties for theme variables
 - Component variants with class-variance-authority
-
-## 📊 Dashboard Features
-
-### Analytics Dashboard
-- Interactive charts and visualizations
-- Real-time data updates
-- Responsive chart components
-
-### Data Tables
-- Advanced filtering and sorting
-- Pagination support
-- Drag and drop functionality
-- Export capabilities
-
-### Lifecycle Management
-- Stage tracking and visualization
-- Progress indicators
-- Interactive lifecycle components
 
 ## 🤝 Contributing
 
