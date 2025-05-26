@@ -2,6 +2,9 @@
 
 A modern, feature-rich dashboard application built with Next.js 15, TypeScript, and shadcn/ui components. This project provides a comprehensive dashboard interface with analytics, lifecycle management, data visualization, and more.
 
+![Light Mode Dashboard](/screenshot-light.png)
+![Dark Mode Dashboard](/screenshot-dark.png)
+
 ## ✨ Features
 
 - 📊 **Interactive Analytics Dashboard** - Real-time data visualization with charts and metrics
@@ -116,7 +119,7 @@ A modern, feature-rich dashboard application built with Next.js 15, TypeScript, 
    
    Navigate to [http://localhost:3000](http://localhost:3000) to see the application.
 
-## �� Available Scripts
+## 🎨 Available Scripts
 
 - `npm run dev` - Start development server with Turbopack
 - `npm run build` - Build the application for production
